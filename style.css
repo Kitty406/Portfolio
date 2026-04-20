@@ -687,7 +687,8 @@ footer {
 
 @media (max-width: 800px) {
   nav {
-    padding: 1rem 1.5rem;
+    padding: 0rem 1.5rem;
+    height: auto;
   }
   .nav-links {
     gap: 1.5rem;
@@ -716,4 +717,17 @@ footer {
   section {
     padding: 3.5rem 1.5rem;
   }
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-toggle {
+  display: none;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
 }
